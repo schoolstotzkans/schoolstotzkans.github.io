@@ -1,0 +1,87 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(215,215,215);
+    background: radial-gradient(circle, rgba(215,215,215,1) 0%, rgba(168,168,168,1) 100%);
+}
+
+/* Heading */
+.headingphp {
+    text-align: center;
+    text-shadow: 0 0 15px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+/* Navbar */
+.navbarnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  background: rgb(98,98,98);
+  background: radial-gradient(circle, rgba(98,98,98,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.navbarli {
+  float: none;
+  text-shadow: 0 0 10px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.navbarli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*Navbar End */
+
+/* Footer */
+.footer {
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 0 0 20px;
+    text-align: center;
+    font-style: italic;
+}
+/* Footer End */
+
+.main {
+    text-align: center;
+    width: 60%;
+    box-shadow: 0 0 50px;
+    margin: auto;
+    background: rgb(185,185,185);
+    background: radial-gradient(circle, rgba(185,185,185,1) 0%, rgba(126,126,126,1) 100%);
+}
+
+/* Request and Game Listings */
+.figurestyle {
+    width:170px;
+    /*padding-left:5px;
+    padding-right:5px;*/
+    margin-left:0;
+    margin-right:0;
+}
+
+.parentFigureStyle {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* Listings End */
+
+/* Generic Stuff */
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 19px;
+    padding: 0 5rem 10px 5rem;
+    text-align: left;
+}
