@@ -99,3 +99,13 @@ p {
     box-shadow: 0 0 20px;
     text-shadow: 0 0 20px;
 }
+
+.construction {
+  background-image: image("/images/under_construction.png");
+  background-repeat: repeat-x;
+}
+
+.constructText {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size 15px;
+}
