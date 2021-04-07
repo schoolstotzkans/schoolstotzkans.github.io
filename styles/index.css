@@ -101,9 +101,14 @@ p {
 }
 
 .construction {
-  background-image: url("/images/under_construction.png");
-  background-repeat: repeat-x;
-  width: 100%;
+  background: repeating-linear-gradient(
+  135deg,
+  #000000,
+  #000000 10px,
+  #FFFF00 10px,
+  #FFFF00 20px
+);
+
 }
 
 .constructText {
