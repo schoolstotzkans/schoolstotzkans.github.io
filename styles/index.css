@@ -1,15 +1,20 @@
 html {
     font-family: 'Roboto', sans-serif;
+    /* Old Gradient
     background: rgb(215,215,215);
     background: radial-gradient(circle, rgba(215,215,215,1) 0%, rgba(168,168,168,1) 100%);
+    New Gradient */
+    background: rgb(247,192,192);
+    background: radial-gradient(circle, rgba(247,192,192,1) 0%, rgba(238,179,179,1) 35%, rgba(147,108,108,1) 100%);
 }
 
 /* Heading */
 .heading {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-shadow: 0 0 15px;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 45px;
+    font-weight: 500;
 }
 
 /* Navbar */
@@ -51,11 +56,15 @@ html {
 
 .main {
     text-align: center;
-    width: 1000px;
+    width: 90%;
     box-shadow: 0 0 50px;
     margin: auto;
+/*  Old Gradient
     background: rgb(185,185,185);
-    background: radial-gradient(circle, rgba(185,185,185,1) 0%, rgba(126,126,126,1) 100%);
+    background: radial-gradient(circle, rgba(185,185,185,1) 0%, rgba(126,126,126,1) 100
+    New Gradient */
+    background: rgb(195,192,247);
+    background: radial-gradient(circle, rgba(195,192,247,1) 0%, rgba(179,179,238,1) 35%, rgba(108,140,147,1) 100%);
 }
 
 /* Request and Game Listings */
@@ -84,4 +93,9 @@ p {
     font-size: 19px;
     padding: 0 5rem 10px 5rem;
     text-align: left;
+}
+
+.gamimg {
+    box-shadow: 0 0 20px;
+    text-shadow: 0 0 20px;
 }
