@@ -103,6 +103,7 @@ p {
 .construction {
   background-image: url("/images/under_construction.png");
   background-repeat: repeat-x;
+  width: 100%;
 }
 
 .constructText {
