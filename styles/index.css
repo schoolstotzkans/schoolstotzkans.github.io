@@ -101,11 +101,12 @@ p {
 }
 
 .construction {
-  background-image: image("/images/under_construction.png");
+  background-image: url("/images/under_construction.png");
   background-repeat: repeat-x;
 }
 
 .constructText {
   font-family: 'Allerta Stencil', sans-serif;
+  text-align: center;
   font-size 15px;
 }
