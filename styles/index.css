@@ -109,7 +109,7 @@ p {
 
 .constructText {
   font-family: 'Allerta Stencil', sans-serif;
-  text-align: center;
+  margin: auto;
   color: white;
   text-shadow: 0 0 10px black;
   font-size 15px;
