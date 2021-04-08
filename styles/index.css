@@ -104,7 +104,7 @@ p {
   background-image: url("/images/under_construction.png");
   background-repeat: repeat-x;
   width: 100%;
-  box-shadow: 0 0 8px 8px white inset;
+  box-shadow: 0 0 8px 8px transparent inset;
 }
 
 .constructText {
