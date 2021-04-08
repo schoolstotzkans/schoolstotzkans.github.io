@@ -102,6 +102,8 @@ p {
 
 .construct {
   background-image: url("/images/under_construction.png");
+  width: 579px;
+  height: 49px;
 }
 
 .constructText {
