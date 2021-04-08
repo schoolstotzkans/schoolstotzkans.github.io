@@ -103,6 +103,7 @@ p {
 .construct {
   background-image: url("/images/under_construction.png");
   text-align: center;
+  display: block;
   width: 579px;
   height: 49px;
 }
