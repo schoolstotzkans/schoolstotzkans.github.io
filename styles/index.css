@@ -102,13 +102,11 @@ p {
 
 .construct {
   background-image: url("/images/under_construction.png");
-  background-repeat: repeat-x;
-  width: 100%;
-  box-shadow: 0 0 8px 8px transparent inset;
 }
 
 .constructText {
   font-family: 'Allerta Stencil', sans-serif;
   text-align: center;
+  color: white;
   font-size 15px;
 }
